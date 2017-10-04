@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MathML</title>
+        <link rel="stylesheet" type="text/css" href="artikkelStyle.css">
+        <style>
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="head">
+                <h1 id="navn">Oblig 2</h1>
+                <div id="nav">
+                    <ul>
+                        <li>
+                            <a href="forside.html">
+                                <i class="fa fa-home" aria-hidden="true">Forside</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="MathML.html">
+                                <i class="fa fa-file-o" aria-hidden="true">MathML</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="SVG.html">
+                                <i class="fa fa-file-o" aria-hidden="true">SVG</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="GitHub.html">
+                                <i class="fa fa-file-o" aria-hidden="true">GitHub</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            
+            </div>
+            <hr>
+            <div id="body">
+                <div id="artikkel">
+                    <h1>MathML</h1>
+                    <p>
+                        ML er en markup language. Det er en strukturert måte å representere matematiske formler. 
+                        MathML  brukes stort sett på WWW (world wide web) .  Fungere også ganske bra til talesyntese. 
+                        Det finnes to typer av MathML: Content og  Presentation
+                        C-Math,  Beholder semantikken i det matematiske uttrykket.
+                        P-MathML, beskriver hvordan det skal vises. Hvordan man får opp stykket på siden.
+                    </p>
+                    
+                        <math>
+                            <mrow>
+                              <mi>x</mi>
+                              <mo>+</mo>
+                              <mn>5</mn>
+                              <mo>=</mo>
+                              <mn>0</mn>
+                            </mrow>
+                        </math>
+                        <br>
+                        
+                        <math>
+                            <mrow>
+                                <msup>
+                                    <mi>a</mi><mn>2</mn>
+                                </msup>
+                                <mo>+</mo>
+                                <msup>
+                                    <mi>b</mi><mn>2</mn>
+                                </msup>
+                                <mo>=</mo>
+                                <msup><mi>c</mi><mn>2</mn></msup>
+                             </mrow>
+                        </math>
+                        <br>
+                        <math>
+                            <mrow>
+                               <msup>
+                                 <mfenced>
+                                   <mrow>
+                                     <mi>a</mi>
+                                     <mo>+</mo>
+                                     <mi>b</mi>
+                                   </mrow>
+                                 </mfenced>
+                                 <mn>2</mn>
+                               </msup>
+                             </mrow>
+                        </math>
+                    <p>For variabler som "x" og "y" brukes tagen mi. For tall brukes tagen mn, og for matematiske operatorer brukes tagen mo. Det er viktig å holde styr på de tagene for de bestemmer font-stylen til de forskjellige symbolene.<br>
+                    Mrow brukes på leddene i stykket for å gjøre den ryddigere. Mfenced brukes for å "lukke" deler av stykket ved hjelp av paranteser og lignende. Msup gjør det mulig, for eksempel, å opphøye tall.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div id="footer">
+
+            </div>
+        </div>
+        <script type="text/javascript"  src="https://use.fontawesome.com/d59c8f4907.js" >
+        </script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+    </body>
+</html>
